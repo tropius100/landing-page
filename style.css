@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+button {
+    cursor:pointer;
+}
+
 /*header*/
 
 .header {
@@ -47,7 +51,7 @@ body {
 }
 
 .hero p {
-    margin-bottom: 30px;
+    margin-bottom: 14px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -65,22 +69,22 @@ body {
 
 .hero .film-logo {
     height: auto;
-    width: 100px;
+    width: 180px;
 }
 
 .hero .artwork {
     height: auto;
     width: 320px;
+    
 }
 
 .hero .submit {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .hero .submit .x {
-    margin-left: 18px;
+    margin-left: 25px;
     font-weight: 900;
 }
 
@@ -116,6 +120,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 60px;
+    
 }
 
 .top,
@@ -129,12 +134,21 @@ body {
 .events .cards span {
     font-weight: 600;
     font-size: 14px;
-    color: #252525;
-    
+    color: #252525;   
 }
 
 .events .cards div {
     text-align: center;
+}
+
+.screening,
+.laurel,
+.judge,
+.mehfilm,
+.csr {
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    padding: 35px 8px;
 }
 
 
@@ -191,7 +205,7 @@ body {
     width: 140px;
     color: white;
     border-radius: 10px;
-    border: 1px solid white; 
+    border: 2px solid white; 
     padding: 6px;
     font-family: 'Avenir Heavy';
     font-size: 18px;
