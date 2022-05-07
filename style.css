@@ -6,6 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 /*header*/
@@ -15,6 +16,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #252525;
+    padding: 5px 230px;
 }
 
 .header .frames-logo {
@@ -24,7 +26,7 @@ body {
 
 .header .social {
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 
 /*hero*/
@@ -34,25 +36,31 @@ body {
     background-color: #3d3d3d;
     color: white;
     justify-content: space-between;
+    align-items: flex-end;
+    padding: 60px 230px;
 }
 
 .hero h1 {
+    font-size: 30px;
     font-weight: 700;
+    margin-bottom: -10px;
 }
 
 .hero p {
+    margin-bottom: 30px;
+    font-size: 16px;
     font-weight: 400;
 }
 
 .hero button {
     background-color: #564DB6;
-    width: 120px;
+    width: 140px;
     color: white;
     border-radius: 10px;
     border: 0px;
-    padding: 4px;
+    padding: 6px;
     font-family: 'Avenir Heavy';
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .hero .film-logo {
@@ -62,13 +70,18 @@ body {
 
 .hero .artwork {
     height: auto;
-    width: 300px;
+    width: 320px;
 }
 
 .hero .submit {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.hero .submit .x {
+    margin-left: 18px;
+    font-weight: 900;
 }
 
 
@@ -78,33 +91,46 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 14px;
-    flex-wrap: wrap;
-}
-
-.events span {
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 450;
+    padding: 30px;
+    gap: 30px;
 }
 
 .events h2 {
-    font-family: 'Avenir Heavy';
+    font-weight: 900;
     color: #252525;
     
 }
 
 .events img {
     height: auto;
-    width: 100px;
+    width: 140px;
     border-radius: 10px;
+    margin: 0px 60px
 }
 
 .events .cards {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.top,
+.bottom {
+    display: flex;
     justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
-    width: 300px;
-    padding: 30px;
+    width: 200px;
+    gap: 30px;  
+}
+
+.events .cards span {
+    font-weight: 600;
+    font-size: 14px;
+    color: #252525;
+    
 }
 
 .events .cards div {
@@ -120,22 +146,22 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #EBD8FF;
-    color: #1b1b1b;
-    padding: 70px 70px 48px 70px;
-
-
+    padding: 80px 80px 58px 80px;
+    color: #252525;
+    margin: 110px 0px;
 }
 
 .quote .prose {
     align-self: center;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .quote .author {
-    margin-left: 800px;
-    font-size: 14px;
-    font-weight: 700;
+    align-self: center;
+    margin: 5px 0px 0px 450px;
+    font-size: 16px;
+    font-weight: 900;
 }
 
 /*action*/
@@ -145,31 +171,31 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px;
+    margin: 0px 0px 110px 0px;
     padding: 40px;
     border-radius: 10px;
     color: white;
     background-color: #564DB6;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 900;
-    width: 650px;
+    width: 750px;
 }
 
 .action span {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
 }
 
 .action button {
     background-color: #564DB6;
-    width: 120px;
+    width: 140px;
     color: white;
     border-radius: 10px;
     border: 1px solid white; 
-    padding: 4px;
+    padding: 6px;
     font-family: 'Avenir Heavy';
-    font-size: 16px;
-    margin-right: 40px;
+    font-size: 18px;
+    margin-right: 85px;
 }
 
 /*footer*/
@@ -181,15 +207,15 @@ body {
     background-color: #252525;
     color: white;
     font-size: 15px;
-    padding: 20px;
+    padding: 30px;
     
 }
 
 .footer .pretext {
     display: flex;
     justify-content: center;
-    font-size: 12px;
-    padding: 2px;
+    font-size: 13px;
+    padding: 1px;
 }
 
 .footer .logo {
