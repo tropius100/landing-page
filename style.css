@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+    font-family: 'Avenir', Helvetica, sans-serif;
 }
 
-.body {
-    font-family: 'Avenir';
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 /*header*/
@@ -13,13 +15,16 @@
     align-items: center;
     justify-content: space-between;
     background-color: #252525;
-    padding: 0px 100px;
-
 }
 
 .header .frames-logo {
     height: auto;
-    width: 50px;
+    width: 67px;
+}
+
+.header .social {
+    display: flex;
+    gap: 10px;
 }
 
 /*hero*/
@@ -27,71 +32,174 @@
 .hero {
     display: flex;
     background-color: #3d3d3d;
+    color: white;
+    justify-content: space-between;
 }
 
-.hero .artwork {
-    height: auto;
-    width: 200px;
+.hero h1 {
+    font-weight: 700;
+}
+
+.hero p {
+    font-weight: 400;
+}
+
+.hero button {
+    background-color: #564DB6;
+    width: 120px;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    padding: 4px;
+    font-family: 'Avenir Heavy';
+    font-size: 16px;
 }
 
 .hero .film-logo {
     height: auto;
-    width: 60px;
+    width: 100px;
 }
+
+.hero .artwork {
+    height: auto;
+    width: 300px;
+}
+
+.hero .submit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 
 /*Events*/
-
-.events img {
-    height: auto;
-    width: 80px;
-    border-radius: 10px;
-}
 
 .events {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 14px;
+    flex-wrap: wrap;
 }
 
-.cards {
-    display: flex;
-    justify-content: space-evenly;
+.events span {
+    font-weight: 600;
 }
+
+.events h2 {
+    font-family: 'Avenir Heavy';
+    color: #252525;
+    
+}
+
+.events img {
+    height: auto;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.events .cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 300px;
+    padding: 30px;
+}
+
+.events .cards div {
+    text-align: center;
+}
+
+
 
 /*quote*/
 
 .quote {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background-color: #EBD8FF;
+    color: #1b1b1b;
+    padding: 70px 70px 48px 70px;
+
+
 }
 
 .quote .prose {
     align-self: center;
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .quote .author {
     margin-left: 800px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 /*action*/
 
 .action {
+    align-self: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #564DB6;
+    font-size: 16px;
+    font-weight: 900;
+    width: 650px;
+}
+
+.action span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.action button {
+    background-color: #564DB6;
+    width: 120px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white; 
+    padding: 4px;
+    font-family: 'Avenir Heavy';
+    font-size: 16px;
+    margin-right: 40px;
 }
 
 /*footer*/
-
-.footer .logo {
-    height: auto;
-    width: 30px;
-}
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #252525;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    
 }
+
+.footer .pretext {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.footer .logo {
+    height: auto;
+    width: 30px;
+    margin-left: 20px;
+}
+
+
+
 
 
 
