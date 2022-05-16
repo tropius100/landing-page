@@ -41,11 +41,11 @@ button {
     color: white;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 60px 230px;
+    padding: 40px 230px;
 }
 
 .hero h1 {
-    font-size: 30px;
+
     font-weight: 700;
     margin-bottom: -10px;
 }
@@ -97,12 +97,12 @@ button {
     align-items: center;
     font-size: 15px;
     font-weight: 450;
-    padding: 30px;
+    padding: 40px;
     gap: 30px;
 }
 
-.events h2 {
-    font-weight: 900;
+.events h1 {
+    
     color: #252525;
     
 }
@@ -119,7 +119,7 @@ button {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 70px;
     
 }
 
